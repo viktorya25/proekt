@@ -48,3 +48,44 @@ nav a {
     width: 1664px;
     margin: 0 auto;
 }
+.block-1-h1{
+    font-size: 48px;
+    color: var(--gold);
+    padding-top: 120px;
+}
+.block-1-cards {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 276px 276px 276px;
+    grid-column-gap: 201px;
+    grid-row-gap: 34px;
+    padding-left: 126px;
+}
+.card {
+    border: 2px solid var(--brown);
+    border-radius: 30px;
+}
+.photo {
+    padding-top: 30px;
+    padding-left: 88px;
+}
+.card p {
+    padding-top: 13px;
+    color: var(--white);
+    padding-left: 91px;
+    padding-bottom: 13px;
+}
+.button{
+    margin-left: 59px;
+    margin-bottom: 30px;
+    padding: 9px 9px 9px 9px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 158px;
+    text-align: center;
+    background-color: var(--gold);
+}
+.button a{
+    color: var(--white);
+    font-size: 16px;
+}
