@@ -48,3 +48,47 @@ nav a {
     width: 1664px;
     margin: 0 auto;
 }
+.block-1 {
+    display: flex;
+}
+.main-info {
+    padding-top: 171px;
+}
+.main-info h1 {
+    font-size: 96px;
+    width: 749px;
+    color: var(--white);
+    padding-bottom: 41px;
+}
+h1 span {
+    color: var(--gold);
+}
+.main-info p{
+    width: 371px;
+}
+.white {
+    color: var(--white);
+}
+.brown {
+    color: var(--brown);
+    padding-bottom: 41px;
+}
+
+.button{
+    padding: 20px 20px 20px 20px;
+    margin-left: 256px;
+    box-sizing: border-box;
+    border: 1px solid var(--brown);
+    border-radius: 30px;
+    width: 219px;
+    text-align: center;
+    background-color: var(--black);
+
+}
+.button a{
+    color: var(--white);
+}
+.bg-1 {
+    margin-left: 32px;
+    margin-top: 0px;
+}
