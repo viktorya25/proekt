@@ -1,0 +1,50 @@
+:root {
+    --gold: #A77B53;
+    --white: #FFFFFF;
+    --brown: #7B5C40;
+    --darkbrown: #2F2217;
+    --black: #000000;
+}
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    background-color: var(--black);
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header-nuv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 92px;
+    padding-bottom: 41px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    padding-right: 261px;
+}
+li:last-child {
+    padding-right: 0px;
+}
+
+nav a {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+}
+.hr {
+    border: 1px solid;
+    color: var(--darkbrown);
+    width: 1664px;
+    margin: 0 auto;
+}
