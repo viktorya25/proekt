@@ -92,3 +92,28 @@ h1 span {
     margin-left: 32px;
     margin-top: 0px;
 }
+.block-2-bg {
+    background-image: url(/img/bg-section-2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1664px;
+}
+.block-2 h1{
+    font-size: 48px;
+    color: var(--gold);
+    padding-top: 120px;
+}
+
+.text-section-2 p{
+    color: var(--white);
+    width: 473px;
+}
+.p-1{
+    padding-top: 423px;
+}
+.p-2 {
+    padding-top: 32px;
+    padding-bottom: 67px;
+}
